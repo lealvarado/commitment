@@ -3,7 +3,7 @@ pipeline {
      stages {
           stage("Checkout") {
                steps {
-                    git url: '<GITHUB URL>'
+                    git url: 'https://github.com/lealvarado/polling.git'
                }
           }
      }
